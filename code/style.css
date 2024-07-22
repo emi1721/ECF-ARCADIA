@@ -1,0 +1,1047 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-origin: border-box;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-image: url("../environment-2196690_1280.jpg");
+}
+
+/*header*/
+
+header {
+  height: 49.49px;
+  background: black;
+  align-content: center;
+  justify-content: center;
+}
+
+header nav {
+height: 50px;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 4px;
+padding-bottom: 4px;
+left: -0.50px;
+top: 0px;
+position: absolute;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+display: inline-flex
+
+}
+
+header nav ol {
+  list-style-type: none;
+  align-self: stretch;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 159px;
+  display: inline-flex;
+}
+
+header nav ol li {
+  position:relative;
+  background: black;
+}
+
+header nav ol li a {
+  position: absolute;
+  background: black;
+}
+
+/*body*/
+
+body {
+  overflow: auto;
+}
+
+#contenu_principal {
+  padding: 10px;
+  height: 1008px;
+}
+
+/*page accueil */
+
+    /*presentation*/
+
+#presentation {
+height: 568px;
+}
+
+.debut_pres {
+  width: 1356px;
+  height: 77.52px;
+  position: relative;
+  background: rgba(134, 139, 134, 0.50);
+  border-radius: 10px;
+  border: 5px rgba(194, 162, 121, 0.48) solid;
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  font-family: Merienda;
+  font-weight: 400;
+}
+
+.suite_pres {
+  width: 1356px;
+  height: 77.52px;
+  position: relative;
+  background: rgba(134, 139, 134, 0.50);
+  border-radius: 10px;
+  border: 5px rgba(194, 162, 121, 0.48) solid;
+}
+
+.suite_pres div {
+  margin-top: -0.5em;
+  left: 443px;
+  top: 9.49px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: Merienda;
+  font-weight: 400;
+}
+
+.presentation {
+   align-self: stretch;
+   height: 314.03px;
+   padding-left: 11px;
+   padding-right: 11px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 29px;
+   display: flex;
+}
+
+.images_presentation {
+   align-self: stretch;
+   flex: 1 1 0;
+   padding-left: 12px;
+   padding-right: 12px;
+   justify-content: center;
+   align-items: center;
+   gap: 53px;
+   display: inline-flex;
+}
+
+.images_presentation img {
+ width: 600px;
+ height: 150px;
+ position: relative;
+ border-radius: 10px;
+ border: 5px rgba(194, 162, 121, 0.48) solid;
+}
+
+h1 {
+  align-self: stretch;
+  height: 122.39px;
+  text-align: center;
+  color: white;
+  font-size: 96px;
+  font-family: Merienda;
+  font-weight: 400;
+}
+
+  /*decouverte*/
+
+#decouverte {
+   width: 1220px;
+   height: 262px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   border-radius: 30px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   display: inline-flex;
+}
+
+h2 {
+  position: relative;
+  width: 615px;
+  height: 100px;
+  left:300px;
+  background: radial-gradient(closest-side, #868b86, #666666, #000000);
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px white solid;
+  text-align: center;
+  color: white;
+  font-size: 64px;
+  font-family: Merienda;
+  font-weight: 400;
+}
+
+.decouverte_habitat {
+  left: 0px;
+}
+
+.decouverte_services {
+   left: 300px;
+}
+
+.decouverte_animaux {
+  left: 600px
+}
+
+#decouverte span {
+  position: sticky;
+  top: 10px;
+  align-items: flex-end;
+  /*gap: 15px;*/
+
+  /*align-self: stretch;*/
+  flex: 1 1 0;
+  padding-left: 12px;
+  padding-right: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 53px;
+  display: inline-flex;
+}
+
+#decouverte span div {
+  background: red;
+  width: 260px;
+  height: 100px;
+  top: 0px;
+  position: absolute;
+  border-radius: 10px;
+  border: 5px rgba(194, 162, 121, 0.48) solid;
+  overflow:hidden;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+#decouverte span div img {
+  width: 85px;
+  height: 100px;
+  top: 0px;
+  position: absolute;
+}
+
+#decouverte .decouverte_name {
+  width: 165px;
+  height: 50px;
+  left: 48px;
+  top: 25px;
+  position: absolute;
+  background: #C2A279;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  font-family: Merienda;
+  font-weight: 400;
+}
+
+
+
+/*avis*/
+
+h3 {
+  position: relative;
+  width: 175px;
+  height: 45px;
+  left: 850px;
+  background: radial-gradient(closest-side, #868B86, #666666, #000000);
+  overflow:hidden;
+  border-radius: 30px;
+  border: 1px white solid;
+  text-align: center;
+  color: white;
+  font-size: 42px;
+  font-family: Merienda;
+  font-weight: 400;
+}
+
+
+
+
+
+article span {
+  justify-content: center;
+  align-items: flex-end;
+  gap: 70px;
+  display: inline-flex;
+  position: relative;
+}
+
+article span div {
+  width: 250px;
+  height: 150px;
+  border-radius: 30px;
+  border: solid 5px #5d9761;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: Merienda;
+  font-weight: 300;
+}
+
+/*footer*/
+
+footer {
+  width: 1440px;
+  height: 214px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background: black;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
+  display: inline-flex;
+}
+
+.cadre_footer {
+  width: 460px;
+  height: 214px;
+  position: relative;
+  border-radius: 30px;
+  border: 1px white solid
+}
+
+.foot_title_section {
+  width: 412px;
+  height: 34px;
+  left: 24px;
+  top: 13px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Merienda;
+  font-weight: 400;
+}
+
+footer ol {
+  list-style-type: none;
+}
+
+footer ol a {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Merienda;
+  font-weight: 400;
+}
+
+footer li {
+  width: 412px;
+  height: 34px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Merienda;
+  font-weight: 400;
+}
+
+/*horaires*/
+
+#horaires {
+  width: 944px;
+  height: 736px;
+  position: relative;
+  top: 150px;
+  left: 500px;
+  border-radius: 20px;
+  background: rgba(133, 147, 166, 0.4);
+}
+
+.horaires_titre_background {
+  width: 534px;
+  height: 86.59px;
+  left: 205px;
+  top: 0px;
+  position: absolute;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.horaires_titre_text {
+  left: 113px;
+  top: 10px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 64px;
+  font-family: Merienda;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+
+.jours_background {
+  width: 419px;
+  height: 600px;
+  left: 26px;
+  top: 115px;
+  position: absolute;
+  border-radius: 20px;
+  border: 3px #5C4D39 solid;
+  background: rgba(123, 155, 198, 0.62);
+}
+
+.jours_text {
+  width: 394px;
+  height: 552px;
+  left: 13px;
+  top: 24px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: Merienda;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.fermeture_background {
+  width: 419px;
+  height: 592px;
+  left: 495px;
+  top: 123px;
+  position: absolute;
+  border-radius: 20px;
+  border: 3px #5C4D39 solid;
+  background: rgba(123, 155, 198, 0.62);
+}
+
+.fermeture_background div {
+   width: 394px;
+   height: 523px;
+   left: 13px;
+   top: 30px;
+   position: absolute;
+   text-align: center;
+}
+
+.fermeture_background div span {
+  color: white;
+  font-size: 40px;
+  font-family: Merienda;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/*formulaire Avis*/
+
+#formulaire_avis {
+  width: 1240px;
+  height: 574px;
+  position: relative;
+  top: 150px;
+  left: 350px;
+  background: rgba(123, 155, 198, 0.76);
+  border-radius: 40px;
+  border: 3px #C2A279 solid;
+}
+
+.formulaire_avis_pseudo {
+  width: 582px;
+  height: 55px;
+  left: 85px;
+  top: 124px;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+  border: 2px #C37FBE solid;
+}
+
+.formulaire_avis_pseudo span {
+  left: 24px;
+  top: 15px;
+  position: absolute;
+  text-align: center;
+}
+
+.formulaire_avis_avis {
+  width: 1053px;
+  height: 200px;
+  left: 85px;
+  top: 240px;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+  border: 2px #C37FBE solid;
+}
+
+.formulaire_avis_avis span {
+  width: 982px;
+  height: 134px;
+  left: 28px;
+  top: 33px;
+}
+
+#formulaire_avis label {
+  left: 179px;
+  position: absolute;
+  background: white;
+  border-radius: 20px; 
+  border: 2px black solid;
+  font-size: 24px;
+}
+
+#formulaire_avis label span {
+  margin-top: -0.6em;
+  left: 0px;
+  top: 50%;
+  position: absolute; 
+  color: black;
+  font-size: 24px;
+  font-family: Merriweather;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+#formulaire_avis label.formulaire_avis_avis span {
+  margin-top: 0px;
+  top: 0.5em;
+}
+
+#formulaire_avis textarea, #formulaire_avis input {
+  padding-left: 7em;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: none;
+  box-sizing: border-box;
+}
+
+#formulaire_avis button {
+  left: 535px;
+  top: 489px;
+  background: rgba(194, 162, 121, 1);
+}
+
+
+/*formulaire contact*/
+
+#formulaire_contact {
+  width: 1240px;
+  height: 574px;
+  position: relative;
+  left: 350px;
+  top: 150px;
+  background: rgba(123, 155, 198, 0.76);
+  border-radius: 40px; border: 3px #C2A279 solid;
+}
+
+.formulaire_contact_titre {
+  width: 582px;
+  height: 55px;
+  left: 85px;
+  top: 49px;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+  border: 2px #C37FBE solid;
+}
+
+.formulaire_contact_e-mail {
+  width: 582px;
+  height: 55px;
+  left: 85px;
+  top: 152px;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+  border: 2px #C37FBE solid;
+}
+
+.formulaire_contact_e-mail span {
+   left: 23px;
+   top: 15px;
+   position: absolute;
+   text-align: center;
+   color: black;
+   font-size: 24px;
+   font-family: Metamorphous;
+   font-weight: 400;
+   word-wrap: break-word;
+}
+
+.formulaire_contact_description {
+  width: 1053px;
+  height: 200px;
+  left: 84px;
+  top: 255px;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+  border: 2px #C37FBE solid;
+}
+
+.formulaire_contact_description span {
+   width: 982px;
+   height: 134px;
+   left: 28px;
+   top: 33px;
+   position: absolute;
+   color: black;
+   font-size: 24px;
+   font-family: Merriweather;
+   font-weight: 400;
+   word-wrap: break-word;
+}
+
+#formulaire_contact textarea, #formulaire_contact input {
+  padding-left: 7em;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: none;
+  box-sizing: border-box;
+}
+
+#formulaire_contact button {
+  left: 535px;
+  top: 489px;
+  background: #C2A279;
+}
+
+
+
+/*vue globale des habitats*/
+
+.habitat_savane {
+   width: 321px;
+   height: 271px;
+   position: relative;
+   border-radius: 30px;
+   border: 5px rgba(0, 0, 0, 0.48) solid;
+   background-image: url(../savane/savane_pexels-rachel-claire-4846091.jpg);
+  
+}
+
+/*vue globale essai*/
+
+#vue_globale_habitats {
+  width: 1287px;
+  height: 331px;
+  padding-left: 31px;
+  padding-right: 31px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  position: relative;
+  left: 300px;
+  top: 300px;
+  justify-content: center;
+  align-items: center;
+  gap: 131px;
+  display: inline-flex
+}
+
+#vue_globale_habitats img {
+  width: 321px;
+  height: 271px;
+  border-radius: 30px;
+}
+
+.habitat_background {
+  width: 321px;
+  height: 271px;
+  position: relative;
+  border-radius: 30px;
+  border: 5px rgba(0, 0, 0, 0.48) solid;
+}
+
+.habitat_background div {
+  width: 150px;
+  height: 50px;
+  left: 85px;
+  top: 15px;
+  position: absolute;
+  background: black;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: Merienda;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+
+/* fiche habitat type*/
+
+#habitat_type {
+   width: 1370px;
+   height: 889px;
+   position: relative;
+   left: 250px;
+   top: 150px;
+}
+
+#habitat_type img {
+  width: 270px;
+  height: 300px;
+  position: absolute;
+  top: 103.01px;
+  border-radius: 30px;
+  border: 5px rgba(123, 155, 198, 0.62) solid;
+}
+
+.habitat_nom {
+  width: 305px;
+  height: 70px;
+  left: 512px;
+  top: 0px;
+  position: absolute;
+  background: radial-gradient(closest-side, #868B86, #666666, #000000);
+  border-radius: 30px;
+  overflow: hidden;
+  border: 2px white solid;
+}
+
+.habitat_nom div {
+  width: 165.27px;
+  height: 52px;
+  left: 69.51px;
+  top: 9px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: Merienda;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.habitat_description {
+  width: 1221px;
+  height: 230.75px;
+  left: 74px;
+  top: 437px;
+  position: absolute;
+  background: linear-gradient(#926225, #2C1D0B);
+  border-radius: 30px;
+  border: 5px black solid;
+}
+
+.habitat_description div {
+  left: 25px;
+  top: 32.19px;
+  right: 25px;
+  bottom: 32.19px;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: Merienda;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.habitat_list_animaux {
+  width: 1221px;
+  height: 188.51px;
+  left: 74px;
+  top: 700.49px;
+  position: absolute;
+  background: linear-gradient(#926225, #2C1D0B);
+  border-radius: 30px;
+  border: 5px black solid;
+}
+
+.habitat_list_animaux div {
+  width: 360px; 
+  height: 151.02px;
+  top: 18.63px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-family: Merienda;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.habitat_list_animaux ol {
+  list-style-type: none;
+}
+
+/* vue globale des services*/
+
+#vue_glob_serv {
+  width: 1401px;
+  height: 786.43px;
+  position: relative;
+  left: 275px;
+  top: 150px;
+}
+
+#vue_glob_serv img {
+  width: 411px;
+  height: 300px;
+  left: -5px;
+  top: 0.32px;
+  position: absolute;
+  border-radius: 30px;
+  border: 5px rgba(194, 162, 121, 0.48) solid;
+}
+
+.serv_description {
+  width: 400px;
+  height: 235px;
+  left: 0px;
+  top: 502.32px;
+  position: absolute;
+  border-radius: 30px;
+  border: 5px rgba(194, 162, 121, 0.48) solid;
+}
+
+  
+
+.restaurant {
+  width: 411px;
+  height: 756.43px;
+  left: 13px;
+  top: 15px;
+  position: absolute;
+  border-radius: 30px;
+}
+
+.restau_nom {
+  width: 352px;
+  height: 162px;
+  left: 30px;
+  top: 317.32px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(194, 162, 121, 0.24) 0%, rgba(92, 77, 57, 0.50) 100%);
+  border-radius: 30px;
+  border: 5px black solid;
+}
+
+.restau_nom div {
+  left: 91px;
+  top: 48.70px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: Merienda;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.restau_description {
+  
+  background: linear-gradient(180deg, rgba(194, 162, 121, 0.24) 0%, rgba(92, 77, 57, 0.50) 100%);
+}
+
+.restau_description div {
+  width: 411px;
+  height: 213px;
+  left: 0px;
+  top: 24px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Merienda;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+
+
+.visite_zoo {
+  width: 411px;
+  height: 756.43px;
+  left: 495px;
+  top: 15px;
+  position: absolute;
+  border-radius: 30px;
+}
+
+.visite_zoo_nom {
+  width: 352px;
+  height: 162px;
+  left: 31px;
+  top: 320.32px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(93, 151, 97, 0.48) 0%, #244727 100%);
+  border-radius: 30px;
+  border: 5px black solid;
+}
+
+.visite_zoo_nom div {
+  width: 318.76px;
+  height: 134.67px;
+  left: 17px;
+  top: 14px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: Merienda;
+  font-weight: 400;
+  word-wrap: break-word
+}
+
+.visite_zoo_description {
+  
+  background: linear-gradient(180deg, rgba(93, 151, 97, 0.48) 0%, #1E311F 100%);
+}
+
+.visite_zoo_description div {
+  width: 411px;
+  height: 157px;
+  left: 0px;
+  top: 53px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Merienda;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+
+
+.visite_train {
+  width: 411px;
+  height: 756.43px;
+  left: 977px;
+  top: 15px;
+  position: absolute;
+  border-radius: 30px;
+}
+
+.visite_train_nom {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: Merienda;
+  font-weight: 400;
+  word-wrap: break-word;
+  width: 352px;
+  height: 162px;
+  left: 20px;
+  top: 321.32px;
+  position: absolute;
+  border-radius: 30px;
+  border: 5px black solid;
+  background: linear-gradient(180deg, rgba(123, 155, 198, 0.62) 0%, #3C4B60 100%);
+  
+}
+
+.visite_train_description {
+  
+  background: linear-gradient(180deg, rgba(123, 155, 198, 0.62) 0%, #3C4B60 100%);
+}
+ 
+.visite_train_description div {
+  width: 312px;
+  height: 213px;
+  left: 50px;
+  top: 21px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Merienda;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+
+/*formulaire connexion*/
+
+#connexion {
+  width: 1304px;
+  height: 637px;
+  padding-left: 266px;
+  padding-right: 266px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+}
+
+#connexion legend {
+  align-self: stretch;
+  text-align: center;
+  color: #000001;
+  font-size: 64px;
+  font-family: Merriweather;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+#connexion fieldset {
+  width: 772px;
+  height: 469px;
+  position: relative;
+  background: rgba(196, 196, 196, 0.26);
+  border-radius: 30px;
+  border: 5px black solid;
+}
+
+#connexion label {
+  width: 414px;
+  height: 81.65px;
+  left: 179px;
+  position: absolute;
+  background: white;
+  border-radius: 20px; 
+  border: 2px black solid;
+}
+
+.connexion_username {
+  top: 41.77px;
+}
+
+.connexion_password {
+  top: 195.51px;
+}
+
+#connexion label span {
+  margin-top: -0.6em;
+  left: 0px;
+  top: 50%;
+  position: absolute; 
+  font-size: 20px;
+}
+
+#connexion label input {
+  padding-left: 7em;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: none;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#connexion button {
+   left: 345px;
+   top: 349.17px;
+}
+
+#bouton_envoyer {
+  width: 82px;
+  height: 74.54px;
+  position: absolute;
+  background: rgba(196, 196, 196, 0.26);
+  border-radius: 30px;
+  border: 3px black solid;
+}
